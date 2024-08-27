@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Select CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Select JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="banner-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+              <a class="navbar-brand" href="#">TicketHub</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <form class="form-inline">
+                      <div class="mt-1">
+                        <input
+                          class="form-control mr-sm-2"
+                          type="search"
+                          placeholder="Search"
+                          aria-label="Search"
+                        />
+                        <button
+                          class="btn btn-outline-success my-2 my-sm-0"
+                          type="submit"
+                        >
+                          Search
+                        </button>
+                      </div>
+                    </form>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="bi bi-bell icon p-3"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="bi bi-person-circle icon p-3"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-2 vh-100">
+      <div class="col-1 p-4 shadow-lg m-1">
+        <a href="adminHome.html" class="d-block mb-4">Dashboard</a>
+        <a href="routes.html" class="d-block mb-4">Routes</a>
+        <a href="schedules.html" class="d-block mb-4">Schedules</a>
+        <a href="stations.html" class="d-block mb-4">Stations</a>
+        <a href="buses.html" class="d-block mb-4">Buses</a>
+        <a href="seats.html" class="d-block mb-4">Seats</a>
+        <a href="reserved.html" class="d-block mb-4">Reserved</a>
+        <a href="cancel.html" class="d-block mb-4">CancelTickets</a>
+        <a href="payments.html" class="d-block mb-4">Payments</a>
+      </div>
+      <div class="col-10 shadow-lg m-1"></div>
+    </div>
+  </body>
+</html>
